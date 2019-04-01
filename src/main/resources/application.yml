@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost:3306/hello_spring_security
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+    ddl-auto: update
+    show-sql: true
+
+debug: false
